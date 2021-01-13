@@ -1,0 +1,53 @@
+/*
+  Drama Troupe Reset Style Sheet
+
+  Supports: Index.html, Page2.html
+
+  Author: Micah Gilbertson
+  Date: 10/14/2012
+*/
+
+
+/****************************
+1) Create a reset style sheet
+****************************/
+
+/* Display all as blocks */
+
+ article, aside, figure, figcaption, footer, header, section, ul, h4 {
+ 	display: block;
+ }
+
+ /* Set the default element styles */
+
+ body * {
+ 	font-family: 'Trebuchet MS', Ariel, sans-serif;
+ 	font-size: 100%
+ 	font-weight: inherit;
+ 	line-height: 1.2em;
+ 	vertical-align: baseline;
+ }
+
+/* Link styles */
+
+
+a:link {
+	color: #599AB9;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #599AB9;
+}
+
+a:hover {
+	color: rgb(161, 243, 255);
+	text-decoration: underline;
+}
+
+a:active {
+	color: black;
+}
+
+
+

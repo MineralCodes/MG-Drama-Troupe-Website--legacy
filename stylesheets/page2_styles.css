@@ -1,0 +1,35 @@
+/*
+  Simla Drama Troupe Style Sheet
+
+  Supports: Page2.html
+
+  Author: Micah Gilbertson
+  Date: 10/15/2012
+*/
+
+
+/* #players styles */
+
+#players {
+	margin: 0px auto 30px;
+	padding-right: 50px;
+}
+
+#players h4 {
+	margin: 20px auto;
+}
+
+#players li {
+	margin: 0px auto;
+	list-style: none;
+	outline: 1px solid black;
+	width: 200px;
+}
+
+section h1 {
+	margin: 30px auto 60px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+

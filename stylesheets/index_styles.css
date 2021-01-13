@@ -1,0 +1,92 @@
+/*
+  Simla Drama Troupe Style Sheet
+
+  Supports: Index.html
+
+  Author: Micah Gilbertson
+  Date: 10/17/2012
+*/
+
+
+/* #plays styles */
+
+#plays {
+	margin: 0px auto;
+	padding: 0px 10px;
+}
+
+#plays article {
+	outline: 3px ridge black;
+	margin: 30px 10px 20px;
+}
+
+#plays p {
+	padding: 25px 8px 8px;
+}
+
+#plays img {
+	float: right;
+	margin: 5px;
+	width: 250px;
+}
+
+
+
+/* #statement styles */
+
+#statement {
+	background: url(../images/parchment.png) top right no-repeat;
+	background-size: cover;
+	background-clip: border-box;
+
+	border: 1px rgb(75, 165, 192) solid;
+    font-size: 0.9em;
+	margin: auto;
+	size: 80%;
+	text-wrap: none;
+}
+
+#statement h4 {
+	padding-top: 10%;
+	text-align: center;
+}
+
+#statement p {
+	margin: 0px 60px 0px 50px;
+	text-align: center;
+}
+
+#statement ul {
+	list-style: square;
+	margin: 0px 60px 78px 50px;
+}
+
+/* Video styles */
+
+video {
+	display: block;
+	margin: 0px auto;
+	width: 100%;
+}
+
+/* Article figure styles */
+
+article figure {
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+
+article figcaption {
+	font-size: 0.8em;
+	margin-top: 10px;
+	text-align: center;
+}
+
+article figcaption a:link {
+	color: black;
+	text-decoration: none;
+}
+
+article figcaption a:visited {
+	color: black;
+}

@@ -1,0 +1,6 @@
+{
+    HtmlMetaData = "<html><head><title>MapSpinner Page</title><meta content=\"MapSpinner\" name=\"GENERATOR\"></head><body><p></p><!-- Created by MapSpinner --><!-- Beginning --><img src=\"Screen Shot 2012-10-29 at 8.18.31 PM\" width=\"821\" height=\"199\" usemap=\"#dramatroupe\" border=\"0\"><map name=\"dramatroupe\"><area shape=\"poly\" coords=\"183,19,154,102,666,104,636,17\" href=\"index.html\" title=\"Home\"><area shape=\"poly\" coords=\"221,61,221,61,220,61\" nohref><area shape=\"rect\" coords=\"475,152,555,182\" href=\"page3.html\" alt=\"Plays\" title=\"Plays\"><area shape=\"rect\" coords=\"379,151,449,181\" href=\"page2.html\" alt=\"Cast\" title=\"Cast\"><area shape=\"rect\" coords=\"264,151,354,182\" href=\"index.html\" alt=\"Home\" title=\"Home\"></map><!-- End --></body></html>";
+    ImageName = "Screen Shot 2012-10-29 at 8.18.31 PM";
+    OldFormat = 0;
+    Version = 1.1;
+}

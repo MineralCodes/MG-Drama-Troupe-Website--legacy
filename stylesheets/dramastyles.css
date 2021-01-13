@@ -1,0 +1,109 @@
+/*
+  Simla Drama Troupe Style Sheet
+
+  Supports: Index.html, page2.html, page3.html
+
+  Author: Micah Gilbertson
+  Date: 10/3/2012
+*/
+
+
+/* Aside Styles */
+
+aside {
+	float: left;
+	padding-left: 9%;
+	width: 25%;
+
+	position: relative;
+	top: 250px;
+	left: 0px;
+}
+
+aside figure {
+	border: none;
+	background: rgb(75, 165, 192);
+	background: rgba(75, 165, 192, 0.7);
+	margin-top: 2.5em;
+	margin-bottom: 1em;
+	outline: 5px inset rgb(60, 117, 210);
+	width: 90%;
+
+}
+
+aside figcaption {
+	font-size: 0.9em;
+	text-align: center;
+}
+
+aside img {
+	width: 100%;
+}
+
+/* Body Styles */
+
+body {
+	color: black;
+	background-color: rgb(38, 70, 111);
+	font-family: 'Trebuchet MS', Ariel, sans-serif;
+	font-style: normal;
+	margin: 10px 100px 0px 100px;
+
+
+	width: 85%;
+	min-width: 800px;
+	max-width: 1400px;
+}
+
+
+/* Header styles */
+
+header {
+	position: absolute;
+	top: 30px;
+	left: 15%;
+}
+
+/* Footer styles */
+
+footer {
+	clear: left;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 0.5em;
+
+	position: relative;
+	top: 300px;
+	left: 0px;
+}
+
+
+/* Section styles */
+
+section {
+	background: rgb(75, 165, 192);
+	float: left;
+	font-size: 108%;
+	padding-top: 2em;
+	padding-left: 0.5%;
+	width: 63%;
+
+	position: relative;
+	top: 275px;
+	left: 50px;
+}
+
+
+nav {
+	position: fixed;
+	top: 275px;
+	left: 0px;
+}
+
+nav li {
+	border-bottom: 1px solid black;
+	font-size: 1.45em;
+	list-style: none;
+	line-height: 1.8em;
+	letter-spacing: 3px;
+}

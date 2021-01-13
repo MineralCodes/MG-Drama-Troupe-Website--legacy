@@ -1,0 +1,146 @@
+/*
+
+	Author: Micah Gilbertson
+	Date: 11/13/2012
+
+	supports: survey.html
+
+	This sheet formats the form on survey.html.
+*/
+
+/* Paragraph styles */
+
+p {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+/* Fieldset styles */
+
+fieldset {
+	border-width: 0px;
+	margin: 10px auto 30px;
+	width: 70%;
+}
+
+legend {
+	background-color: rgb(220, 164, 80);
+	color: black;
+	width: 102.2%;
+}
+
+
+/* Label styles */
+
+label {
+	clear: left;
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 20px 4% 10px 5px;
+	width: 50%;
+}
+
+/* Input styles */
+
+input {
+	display: block;
+	float: left;
+	font-size: 0.8em;
+	margin: 7px 0px;
+	width: 40%;
+}
+
+/* Optiongroup styles */
+
+fieldset.optionGroup {
+	border-width: 0px;
+	float: right;
+	width: 180px;
+}
+
+fieldset.optionGroup label {
+	display: inline;
+	float: none;
+	margin: 0px 3px 0px 0px;
+	width: 20px;
+}
+
+fieldset.optionGroup input {
+	display: inline;
+	float: none;
+	margin: 0px 8px 0px 0px;
+	width: 20px;
+}
+
+/* Slider styles */
+
+label.sliderLabel {
+	clear: none;
+	font-size: 0.7em;
+	margin: 20px 0px;
+	text-align: center;
+	width: 10px;
+}
+
+input[type="range"] {
+	margin: 20px 0px;
+	width: 180px;
+}
+
+/* Textarea styles */
+
+textarea {
+	display: block;
+	float: right;
+	font-size: 0.9em;
+	height: 150px;
+	margin: 30px 0px;
+	width: 40%;
+
+}
+
+/* Checkbox styles */
+
+#checkbox {
+	margin: 20px 0px 20px 70px;
+	width: 80%;
+}
+
+#checkbox input {
+	width: 20px;
+}
+
+/* Number styles */
+
+#number {
+	text-align: right;
+	width: 50px;
+}
+
+
+/* Button styles */
+
+#buttons {
+	margin: 10px auto 0px 140px;
+	width: 70%;
+}
+/* Validation styles */
+
+input:focus:valid {
+	background: rgb(220, 255, 220) url(../images/checkmark.png) bottom right no-repeat;
+
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+input:focus:invalid {
+	background: rgb(255, 232, 233) url(../images/xmark.png) bottom right no-repeat;
+
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+}

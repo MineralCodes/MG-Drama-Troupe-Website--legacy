@@ -1,0 +1,59 @@
+/*
+  Simla Drama Troupe Style Sheet
+
+  Supports: Page3.html
+
+  Author: Micah Gilbertson
+  Date: 10/30/2012
+*/
+
+section p {
+	margin: 5px 40px 10px;
+	text-align: center;
+}
+
+
+/* Table styles */
+
+table.plays {
+	border: 5px groove rgb(123, 175, 175);
+	border-collapse: collapse;
+	font-size: 0.9em;
+	width: 100%;
+
+	margin: 3.5em auto 0px auto;
+}
+
+table.plays caption {
+	caption-side: bottom;
+	text-align: right;
+}
+
+
+/* Table body styles */
+
+tbody tr td {
+	height: 40px;
+	text-align: center;
+}
+
+tbody {
+	background-color: rgb(151, 226, 248);
+	background-color: rgba(52, 159, 232, 0.3);
+}
+
+
+/* Table head styles */
+
+thead {
+	background-color: #DCA450;
+}
+
+
+/* Column styles */
+col.play {
+	width: 25%;
+}
+
+
+

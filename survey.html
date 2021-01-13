@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+   		<meta name="author" content="Micah Gilbertson" />
+   		<meta name="Discription" content="Amateur Theatre Groupe" />
+   		<meta name="keywords" content="Simla, Drama Troupe, Amateur Theatre, Play, Survey" />
+
+    	<!-- Simla Drama Troupe
+         	Author: Micah Gilbertson
+         	Date: 10/29/2012
+
+         	Supporting images: dramatroupe1.png, dramapic.jpg, dollar.jpg, hansle_and_grettel.png, parchment.png
+         					   pinocchio.png, snow_white.png
+
+         	Supporting stylesheets: dramastyles.css, drama_reset.css
+
+         	Linked to: Index.html, page2.html, page3.html, Facebook, Youtube, simladramatroupe@gmail.com
+      	-->
+
+   		<title>Survey</title>
+
+   		<script src="./modernizr-1.5.js"></script>
+   		<script src="./formsubmit.js"></script>
+
+   		<link href="./stylesheets/dramastyles.css" rel="stylesheet" type="text/css" />
+   		<link href="./stylesheets/form.css" rel="stylesheet" type="text/css" />
+   		<link href="./stylesheets/drama_reset.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header>
+			<h1><img src="./images/dramatroupe.png" usemap="#dramatroupe" border="0" alt="Simla Drama Troupe" />
+		</header>
+
+		<map name="dramatroupe">
+			<area shape="poly" coords="183,19,154,102,666,104,636,17" href="index.html" title="Home">
+			<area shape="rect" coords="201,153,292,180" href="index.html" alt="Home" title="Home">
+			<area shape="rect" coords="310,153,387,180" href="cast.html" alt="Cast" title="Cast">
+			<area shape="rect" coords="406,153,497,180" href="plays.html" alt="Plays" title="Plays">
+			<area shape="rect" coords="516,153,619,180" href="survey.html" alt="Survey" title="Survey">
+		</map>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="cast.html">Cast</a></li>
+				<li><a href="plays.html">Plays</a></li>
+				<li><a href="survey.html">Survey</a></li>
+			</ul>
+		</nav>
+
+		<section>
+
+			<p>Required field are marked with a astrick (*)</p>
+
+			<form id="survey" name="survey"
+				  action="simladramatroupe.atspace.co.uk"
+				  method="post">
+
+			<fieldset id="formpt1">
+				<legend>Your Info</legend>
+
+				<label for="name">Name *</label>
+				<!--***************************
+				      Text
+				      *************************-->
+				<input type="text" name="name" id="name"
+						placeholder="e.g. John Smith"
+						required="required" />
+				<label for="email">E-mail *</label>
+				<input type="email" name="email" id="email"
+						placeholder="johnsmith@example.com"
+						required="required" />
+				<!--***************************
+				      Password
+				      *************************-->
+				<label for="password">Password *</label>
+				<input type="password" name="password" id="password"
+						required="required" />
+
+		  	</fieldset>
+
+		  	<fieldset id="formpt2">
+		  		<legend>Other Info</legend>
+				<!--***************************
+				      Date
+				      *************************-->
+				<label for="date">Todays Date *</label>
+				<input type="date" name="date" id="date"
+						placeholder="mm/dd/yy"
+						required="required" />
+
+				<label for="number">How many of our parformances have you seen?</label>
+				<!--***************************
+				      Number
+				      *************************-->
+				<input type="number" name="number" id="number"
+						min="0" max="10" step="1" value="1" />
+
+				<label>Do you find our performances enjoyable? <br />
+						(0 = no; 10 = yes)</label>
+				<label class="sliderLabel">0</label>
+				<!--***************************
+				      Range
+				      *************************-->
+				<input type="range" name="playEnjoyable" id="playEnjoyable" value="5"
+      					min="0" max="10" step="1" />
+      			<label class="sliderLabel">10</label>
+
+      			<label class="option">Would you like to see us do more Drama or Comedy?</label>
+      			<!--***************************
+				      Radio
+				      *************************-->
+      			<fieldset class="optionGroup">
+      				<label for="drama">Drama</label>
+      				<input type="radio" name="playType" id="drama"
+      						value="Drama" />
+
+      				<label for="comedy">Comedy</label>
+      				<input type="radio" name="playType" id="comedy"
+      						value="Comedy" />
+      			</fieldset>
+
+				<label for="comments">Comments</label>
+				<textarea name="comments" id="comments"></textarea>
+		  	</fieldset>
+
+		  	<label id="checkbox">
+		  		<!--***************************
+				      Checkbox
+				      *************************-->
+		  		<input type="checkbox" name="checkbox" checked="checked" />
+		  			I want to be notified of any future changes with the Drama Troupe
+		  	</label>
+
+		  	<div id="buttons">
+		  		<!--***************************
+				      Button, Reset, Submit
+				      *************************-->
+		  		<input type="reset" value="Cancel" />
+		  		<input type="submit" value="Submit" />
+		  	</div>
+
+			</form>
+		</section>
+
+		<aside>
+ 		<figure>
+ 			<img src="./images/dramapic.jpg" alt="drama pic" width="300" />
+ 			<figcaption>Group Photo From Our Most Recent Play "Hansel and Gretel"</figcaption>
+ 		</figure>
+
+ 		<figure>
+ 			<img src="./images/dollar.jpg" alt="dollar pic" width="300" />
+ 			<figcaption>Group Photo From Our First Play "The Dollar"</figcaption>
+ 		</figure>
+
+ 		<figure>
+ 			<img src="./images/pioncchio.png" alt="pinocchio pic" width="300" />
+ 			<figcaption>Our Performance of "Pinocchio"</figcaption>
+ 		</figure>
+
+ 		<figure>
+ 			<img src="./images/snow_white.png" alt="snow white pic" width="300" />
+ 			<figcaption>Our Performance of "Snow White"</figcaption>
+ 		</figure>
+
+ 		<figure>
+ 			<img src="./images/hansle_and_grettel.png" alt="hansel and grettel pic" width="300" />
+ 			<figcaption>Our Performance of "Hansel and Gretel"</figcaption>
+ 		</figure>
+
+ 	</aside>
+
+
+  	<footer>
+    	<a href="http://www.facebook.com/simladrama" target="new">Find us on Facebook!</a> &#9784;
+    	<a href="http://www.youtube.com/user/SimlaDramaTroupe" target="new"> Check Out Our YouTube Channel!</a> &#9784;
+  		<script src="em.js" type="text/javascript"></script>
+  	</footer>
+
+  	</body>
+</html>
